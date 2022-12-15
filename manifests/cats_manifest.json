@@ -46,6 +46,13 @@
         },
         "on" : "http://3cd6e394-4dad-4587-a278-f5e16a457cd9"
       } ],
+      "otherContent": [
+    {
+        "@id": "https://stshetenhelm.github.io/IIIF-Workshop/annotations/cat_annotations.json",
+        "@type": "sc:AnnotationList",
+        "label": "My fantastic annotations"
+    }
+],
       "related" : ""
     }, {
       "@id" : "http://5554b0a7-df9c-4617-bdd3-4747cdc67ab3",
