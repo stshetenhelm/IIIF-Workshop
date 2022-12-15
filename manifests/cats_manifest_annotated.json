@@ -1,0 +1,125 @@
+{
+  "@context" : "http://iiif.io/api/presentation/2/context.json",
+  "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/cats_manifest_annotated.json",
+  "@type" : "sc:Manifest",
+  "label" : "Cats from the Lewis Walpole Library collection",
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/43414799/0821b132cc822ab4312e3e53955a2c9e/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  },
+  "metadata" : [ ],
+  "description" : [ {
+    "@value" : "A variety of images of cats from books that are a part of the Lewis Walpole Library collection at Yale University.",
+    "@language" : "en"
+  } ],
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
+  "attribution" : "Images from the Lewis Walpole Library at Yale University.",
+  "sequences" : [ {
+    "@id" : "http://b10198f4-63e5-4239-87ca-433645caf346",
+    "@type" : "sc:Sequence",
+    "label" : [ {
+      "@value" : "Normal Sequence",
+      "@language" : "en"
+    } ],
+    "canvases" : [ {
+      "@id" : "http://3cd6e394-4dad-4587-a278-f5e16a457cd9",
+      "@type" : "sc:Canvas",
+      "label" : "[Concert of cats] [graphic].",
+      "height" : 4798,
+      "width" : 6024,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://1ebe359d-fe49-47a3-b9f0-d64cac675843",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.library.yale.edu/iiif/2/32353913/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.library.yale.edu/iiif/2/32353913",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4798,
+          "width" : 6024
+        },
+        "on" : "http://3cd6e394-4dad-4587-a278-f5e16a457cd9"
+      } ],
+      "otherContent" : [ {
+        "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/annotations/cat_annotations.json",
+        "@type" : "sc:AnnotationList",
+        "label" : "My fantastic annotations"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://5554b0a7-df9c-4617-bdd3-4747cdc67ab3",
+      "@type" : "sc:Canvas",
+      "label" : "Cat in a bowl [graphic]",
+      "height" : 4063,
+      "width" : 6651,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://0487e20e-526b-42b4-a791-7c6e2624acd7",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.library.yale.edu/iiif/2/32353513/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.library.yale.edu/iiif/2/32353513",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 4063,
+          "width" : 6651
+        },
+        "on" : "http://5554b0a7-df9c-4617-bdd3-4747cdc67ab3"
+      } ],
+      "related" : ""
+    }, {
+      "@id" : "http://ebd306ba-a155-4973-a7f4-6e1095eb87f4",
+      "@type" : "sc:Canvas",
+      "label" : "Cats castle besieged by the rats [graphic].",
+      "height" : 2694,
+      "width" : 4010,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://3eab8c4f-ab5e-42a7-9c2b-a5dc91582763",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://collections.library.yale.edu/iiif/2/32360487/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://collections.library.yale.edu/iiif/2/32360487",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json", {
+              "formats" : [ "jpg", "tif", "gif", "png" ],
+              "qualities" : [ "bitonal", "default", "gray", "color" ],
+              "supports" : [ "regionByPx", "sizeByW", "sizeByWhListed", "cors", "regionSquare", "sizeByDistortedWh", "canonicalLinkHeader", "sizeByConfinedWh", "sizeByPct", "jsonldMediaType", "regionByPct", "rotationArbitrary", "sizeByH", "baseUriRedirect", "rotationBy90s", "profileLinkHeader", "sizeByForcedWh", "sizeByWh", "mirroring" ]
+            } ]
+          },
+          "height" : 2694,
+          "width" : 4010
+        },
+        "on" : "http://ebd306ba-a155-4973-a7f4-6e1095eb87f4"
+      } ],
+      "related" : ""
+    } ]
+  } ],
+  "structures" : [ ],
+  "viewingDirection" : "left-to-right",
+  "viewingHint" : "individuals"
+}
