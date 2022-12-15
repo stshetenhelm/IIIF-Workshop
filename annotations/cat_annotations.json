@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Got a violin down here.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Got a violin down here.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/43414799",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-12-15T21:09:49",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1671138589884",
+    "dcterms:modified" : "2022-12-15T21:09:49",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/cats_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=589,3739,1508,1013"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M589.47983,3738.90639h754.11073v0h754.11073v506.72527v506.72527h-754.11073h-754.11073v-506.72527z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_afbbdf10-1f94-41da-b80b-9b81a78480d8\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3cd6e394-4dad-4587-a278-f5e16a457cd9"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Some kind of horn instrument.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Some kind of horn instrument.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/43414799",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2022-12-15T21:09:26",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1671138566885",
+    "dcterms:modified" : "2022-12-15T21:09:26",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/cats_manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=837,852,1407,873"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M836.93322,852.43836h703.44692v0h703.44692v436.43493v436.43493h-703.44692h-703.44692v-436.43493z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_24a82628-cf6a-4350-a411-03439841dd2f\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://3cd6e394-4dad-4587-a278-f5e16a457cd9"
+    } ]
+  } ],
+  "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/annotations/cat_annotations.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
