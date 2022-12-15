@@ -5,9 +5,5 @@
   },
   "type" : "Collection",
   "@context" : "http://iiif.io/api/presentation/3/context.json",
-  "items" : [ {
-    "@type" : "sc:Manifest",
-    "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/cats_manifest_annotated.json",
-    "label" : "Cats from the Lewis Walpole Library collection"
-  } ]
+  "items" : [ ]
 }
