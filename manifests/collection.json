@@ -13,5 +13,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/cats_manifest.json",
     "label" : "Cats from the Lewis Walpole Library collection"
+  }, {
+    "@type" : "sc:Collection",
+    "@id" : "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwithmanifest",
+    "label" : "Boundwith_Experiment"
   } ]
 }
