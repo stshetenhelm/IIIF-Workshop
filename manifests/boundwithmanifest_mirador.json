@@ -1,0 +1,39 @@
+{
+"@context": "http://iiif.io/api/presentation/2/context.json",
+"@id": "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwidthmanifest_mirador.json",
+"@type": "sc:Collection",
+"label": "Boundwith - 'Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick' and 'Miscellaneous antiquities ... No. I[-II] ...'",
+"description": [
+    {
+        "@value": "Boundwith from Lewis Walpole Library, catalog number 49 2509. Includes two works--'Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick' and 'Miscellaneous antiquities ... No. I[-II] ...' Calf, with Horace Walpole's arms stamped on covers. Not in Manuscript Catalogue of 1763. Armorial bookplates of E.V. Utterson and of William Frederick, 9th Earl of Waldegrave. Ms. notes by Utterson and by Lady Elizabeth Waldegrave. Horace Walpole's extra-illustrated copy, with notes and initials.",
+        "@language": "en"
+    }
+    ],
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "attribution": "Images from the Lewis Walpole Library at Yale University.",
+    "related": "https://hdl.handle.net/10079/bibid/1738890",
+"manifests": [
+    {
+        "@id": "https://collections.library.yale.edu/manifests/17088908",
+        "@type": "sc:Manifest",
+        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick"
+    },
+    {
+        "@id": "https://collections.library.yale.edu/manifests/17088939",
+        "@type": "sc:Manifest",
+        "label": "Miscellaneous antiquities ... No. I[-II] ..."
+    }
+],
+    "members": [
+    {
+        "@id": "https://collections.library.yale.edu/manifests/17088908",
+        "@type": "sc:Manifest",
+        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick"
+    },
+    {
+        "@id": "https://collections.library.yale.edu/manifests/17088939",
+        "@type": "sc:Manifest",
+        "label": "Miscellaneous antiquities ... No. I[-II] ..."
+    }
+]
+}
