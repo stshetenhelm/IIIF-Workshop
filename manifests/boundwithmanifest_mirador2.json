@@ -2,6 +2,7 @@
 "@context": "http://iiif.io/api/presentation/2/context.json",
 "@id": "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwithmanifest_mirador2.json",
 "@type": "sc:Collection",
+"viewingHint": "top",
 "label": "Boundwith - 'Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick' and 'Miscellaneous antiquities ... No. I[-II] ...'",
 "description": [
     {
@@ -16,24 +17,24 @@
     {
         "@id": "https://collections.library.yale.edu/manifests/17088908",
         "@type": "sc:Manifest",
-        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick",
+        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick"
     },
     {
         "@id": "https://collections.library.yale.edu/manifests/17088939",
         "@type": "sc:Manifest",
-        "label": "Miscellaneous antiquities ... No. I[-II] ...",
+        "label": "Miscellaneous antiquities ... No. I[-II] ..."
     }
 ],
     "members": [
     {
         "@id": "https://collections.library.yale.edu/manifests/17088908",
         "@type": "sc:Manifest",
-        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick",
+        "label": "Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick"
     },
     {
         "@id": "https://collections.library.yale.edu/manifests/17088939",
         "@type": "sc:Manifest",
-        "label": "Miscellaneous antiquities ... No. I[-II] ...",
+        "label": "Miscellaneous antiquities ... No. I[-II] ..."
     }
 ]
 }
