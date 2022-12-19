@@ -1,6 +1,6 @@
 {
 "@context": "http://iiif.io/api/presentation/2/context.json",
-"@id": "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwidthmanifest_mirador.json",
+"@id": "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwithmanifest_mirador.json",
 "@type": "sc:Collection",
 "label": "Boundwith - 'Copies of seven original letters from King Edward VI to Barnabry Fitz-Patrick' and 'Miscellaneous antiquities ... No. I[-II] ...'",
 "description": [
