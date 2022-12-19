@@ -1,5 +1,5 @@
 {
-"@context": "http://iiif.io/api/presentation/2/context.json",
+"@context": "http://iiif.io/api/presentation/3/context.json",
 "@id": "https://stshetenhelm.github.io/IIIF-Workshop/manifests/boundwithmanifest_mirador2.json",
 "@type": "sc:Collection",
 "viewingHint": "top",
